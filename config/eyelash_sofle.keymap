@@ -61,7 +61,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "TD3";
         #binding-cells = <0>;
-        bindings = <&kp RA(W)>, <&kp RA(SLASH)>, <&kp LS(BACKSLASH)>;
+        bindings = <&kp RA(W)>, <&kp KP_DIVIDE>, <&kp LS(BACKSLASH)>;
     };
 
     as: as {
@@ -159,11 +159,11 @@
 
         layer_1 {
             bindings = <
-&trans      &trans           &trans          &M3              &M4              &M5                &mmv MOVE_UP     &kp F6             &kp F7             &kp F8                &kp F9   &kp F10  &trans
-&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans   &trans   &trans
-&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_UP          &kp PAGE_DOWN      &trans                &trans   &trans   &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI    &rgb_ug RGB_BRD    &trans                &kp F11  &kp F12  &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans             &mo 3              &trans                &trans   &trans
+&trans       &trans           &trans          &M3              &M4              &M5                &mmv MOVE_UP     &kp F6             &kp F7             &kp F8                &kp F9   &kp F10  &trans
+&trans       &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans   &trans   &trans
+&trans       &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_UP          &kp PAGE_DOWN      &trans                &trans   &trans   &kp RIGHT_BRACKET
+&trans       &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI    &rgb_ug RGB_BRD    &trans                &kp F11  &kp F12  &trans
+&bootloader  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans             &mo 3              &trans                &trans   &trans
             >;
 
             display-name = "layer1";
@@ -172,11 +172,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp F1           &kp F2           &kp F3           &kp F4  &kp F5    &bt BT_SEL 0  &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans    &bt BT_SEL 2  &trans  &trans  &kp F11     &kp F12    &trans       &trans
-&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans    &bt BT_SEL 3  &trans  &trans  &trans      &trans     &trans       &trans
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans    &bt BT_SEL 1  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans  &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &trans  &mo 3     &bt BT_CLR    &trans  &trans  &trans      &trans     &trans
+&trans       &kp F1           &kp F2           &kp F3           &kp F4  &kp F5    &bt BT_SEL 0  &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans    &bt BT_SEL 2  &trans  &trans  &kp F11     &kp F12    &trans       &trans
+&trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans    &bt BT_SEL 3  &trans  &trans  &trans      &trans     &trans       &trans
+&trans       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans    &bt BT_SEL 1  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&bootloader  &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &trans  &mo 3     &bt BT_CLR    &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -193,12 +193,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Tri {
-            if-layers = <1>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
