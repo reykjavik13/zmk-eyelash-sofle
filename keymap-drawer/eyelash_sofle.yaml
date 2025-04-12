@@ -49,8 +49,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: N, h: Sft+N}
   - {t: M, h: Sft+M}
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ',', h: 'Sft+,', s: <}
+  - {t: ., h: Sft+., s: '>'}
   - {t: '?', h: /}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
@@ -240,7 +240,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
