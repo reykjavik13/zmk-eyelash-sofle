@@ -145,11 +145,11 @@
 
         layer0 {
             bindings = <
-&TD0              &as LS(N1) NUMBER_1         &as LS(N2) NUMBER_2  &as LS(N3) NUMBER_3             &as LS(N4) NUMBER_4  &as LS(N5) N5        &kp UP_ARROW     &as LS(N6) NUMBER_6  &as LS(N7) N7  &as LS(N8) N8  &as LS(N9) N9      &as LS(N0) N0       &kp BACKSPACE
-&mt LA(CAPS) TAB  &as LS(Q) Q                 &as LS(W) W          &as LS(E) E                     &as LS(R) R          &as LS(T) T          &kp DOWN_ARROW   &as LS(Y) Y          &as LS(U) U    &as LS(I) I    &as LS(O) O        &as LS(P) P         &mt LEFT_BRACE LEFT_BRACKET
-&TD1              &as LS(A) A                 &as LS(S) S          &as LS(D) D                     &as LS(F) F          &as LS(G) G          &kp LEFT_ARROW   &as LS(H) H          &as LS(J) J    &as LS(K) K    &as LS(L) L        &as LS(SEMI) SEMI   &mt DOUBLE_QUOTES SINGLE_QUOTE
-&TD2              &as LS(Z) Z                 &as LS(X) X          &as LS(C) C                     &as LS(V) V          &as LS(B) B          &kp RIGHT_ARROW  &as LS(N) N          &as LS(M) M    &kp COMMA      &kp DOT            &as SLASH QUESTION  &as LEFT_SHIFT ENTER
-&kp C_MUTE        &mt LCTRL LEFT_PARENTHESIS  &mt LEFT_GUI SPACE   &mt LEFT_ALT RIGHT_PARENTHESIS  &mo 1                &kp LC(BACKSPACE)    &kp PRINTSCREEN  &mt END HOME         &mo 2          &TD3           &kp LC(BACKSPACE)  &kp DELETE
+&TD0              &as LS(N1) NUMBER_1         &as LS(N2) NUMBER_2  &as LS(N3) NUMBER_3             &as LS(N4) NUMBER_4  &as LS(N5) N5        &kp UP_ARROW     &as LS(N6) NUMBER_6  &as LS(N7) N7  &as LS(N8) N8        &as LS(N9) N9      &as LS(N0) N0       &kp BACKSPACE
+&mt LA(CAPS) TAB  &as LS(Q) Q                 &as LS(W) W          &as LS(E) E                     &as LS(R) R          &as LS(T) T          &kp DOWN_ARROW   &as LS(Y) Y          &as LS(U) U    &as LS(I) I          &as LS(O) O        &as LS(P) P         &mt LEFT_BRACE LEFT_BRACKET
+&TD1              &as LS(A) A                 &as LS(S) S          &as LS(D) D                     &as LS(F) F          &as LS(G) G          &kp LEFT_ARROW   &as LS(H) H          &as LS(J) J    &as LS(K) K          &as LS(L) L        &as LS(SEMI) SEMI   &mt DOUBLE_QUOTES SINGLE_QUOTE
+&TD2              &as LS(Z) Z                 &as LS(X) X          &as LS(C) C                     &as LS(V) V          &as LS(B) B          &kp RIGHT_ARROW  &as LS(N) N          &as LS(M) M    &as LS(COMMA) COMMA  &as LS(DOT) DOT    &as SLASH QUESTION  &as LEFT_SHIFT ENTER
+&kp C_MUTE        &mt LCTRL LEFT_PARENTHESIS  &mt LEFT_GUI SPACE   &mt LEFT_ALT RIGHT_PARENTHESIS  &mo 1                &kp LC(BACKSPACE)    &kp PRINTSCREEN  &mt END HOME         &mo 2          &TD3                 &kp LC(BACKSPACE)  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -183,11 +183,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
