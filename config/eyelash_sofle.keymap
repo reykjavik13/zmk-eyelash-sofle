@@ -46,22 +46,22 @@
         compatible = "zmk,behavior-tap-dance";
         label = "TD1";
         #binding-cells = <0>;
-        tapping-term-ms = <170>;
-        bindings = <&mt MINUS RA(LEFT_BRACKET)>, <&kp UNDERSCORE>;
+        tapping-term-ms = <200>;
+        bindings = <&kp MINUS>, <&kp UNDER>, <&kp RA(RIGHT_BRACKET)>;
     };
 
     TD2: TD2 {
         compatible = "zmk,behavior-tap-dance";
         label = "TD2";
         #binding-cells = <0>;
-        bindings = <&kp EQUAL>, <&kp RA(RIGHT_BRACKET)>, <&kp PLUS>;
+        bindings = <&kp EQUAL>, <&kp RA(BSLH)>, <&kp PLUS>;
     };
 
     TD3: TD3 {
         compatible = "zmk,behavior-tap-dance";
         label = "TD3";
         #binding-cells = <0>;
-        bindings = <&kp RA(W)>, <&kp SLASH>, <&kp LS(BACKSLASH)>;
+        bindings = <&kp RA(W)>, <&kp RA(SLASH)>, <&kp LS(BACKSLASH)>;
     };
 
     as: as {
@@ -70,8 +70,9 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <250>;
         quick-tap-ms = <0>;
+        flavor = "tap-preferred";
     };
 
     combos {
