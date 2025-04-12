@@ -118,7 +118,7 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,11 +183,11 @@ layers:
   - '&soft_off'
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - KP 0
   - {t: ',', s: <}
   - .
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '3'
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
