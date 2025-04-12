@@ -26,7 +26,7 @@ layers:
   - {t: I, h: Sft+I}
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
-  - {t: '''', h: '`', s: '"'}
+  - {t: '[', h: '{', s: '{'}
   - '&TD1'
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
@@ -39,7 +39,7 @@ layers:
   - {t: K, h: Sft+K}
   - {t: L, h: Sft+L}
   - {t: ;, h: Sft+;, s: ':'}
-  - {t: '~', h: ^}
+  - {t: '''', h: '"', s: '"'}
   - '&TD2'
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
@@ -51,7 +51,7 @@ layers:
   - {t: M, h: Sft+M}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: ;, s: ':'}
+  - {t: '?', h: /}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - {t: (, h: '$$mdi:apple-keyboard-control$$'}
@@ -86,7 +86,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: ']', s: '}'}
   - \
   - {t: '$$mdi:transfer$$', type: trans}
