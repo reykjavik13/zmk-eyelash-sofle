@@ -99,6 +99,11 @@
             bindings = <&M7>;
             key-positions = <1 2>;
         };
+
+        C5 {
+            bindings = <&M8>;
+            key-positions = <50 51>;
+        };
     };
 
     macros {
@@ -149,6 +154,13 @@
             #binding-cells = <0>;
             bindings = <&kp N1 &kp N2 &kp N5 &kp N9 &kp N1>;
             label = "M7";
+        };
+
+        M8: M8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(ENTER)>;
+            label = "M8";
         };
     };
 
