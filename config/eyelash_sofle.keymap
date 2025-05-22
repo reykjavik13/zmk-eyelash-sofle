@@ -106,7 +106,7 @@
         };
 
         VerticalSlash {
-            bindings = <&kp RA(KP_SLASH)>;
+            bindings = <&kp RA(BACKSLASH)>;
             key-positions = <61 59>;
         };
 
