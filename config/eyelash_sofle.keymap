@@ -106,7 +106,7 @@
         };
 
         VerticalSlash {
-            bindings = <&kp RA(BACKSLASH)>;
+            bindings = <&kp LS(BACKSLASH)>;
             key-positions = <61 59>;
         };
 
@@ -236,7 +236,7 @@
 &trans       &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &as RIGHT_BRACKET LS(LEFT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(NON_US_BACKSLASH)  &trans   &trans   &trans
 &trans       &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_UP                           &kp PAGE_DOWN      &trans                    &trans   &trans   &kp RIGHT_BRACKET
 &trans       &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI                     &rgb_ug RGB_BRD    &trans                    &kp F11  &kp F12  &trans
-&bootloader  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans                              &mo 3              &kp RA(BACKSLASH)         &trans   &trans
+&bootloader  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans                              &mo 3              &kp LS(BACKSLASH)         &trans   &trans
             >;
 
             display-name = "layer1";
