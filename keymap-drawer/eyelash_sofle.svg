@@ -698,6 +698,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">&amp;M8</text>
 </g>
+<g class="combo combopos-5">
+<path d="M603,276 l50,-13" class="combo"/>
+<path d="M603,276 l-50,13" class="combo"/>
+<rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
+<text x="603" y="276" class="combo tap">
+<tspan x="603" dy="-0.6em" style="font-size: 75%">AltGr+KP</tspan><tspan x="603" dy="1.2em" style="font-size: 75%">SLASH</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-layer1">
@@ -1074,6 +1082,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">&amp;M8</text>
+</g>
+<g class="combo combopos-5">
+<path d="M603,276 l50,-13" class="combo"/>
+<path d="M603,276 l-50,13" class="combo"/>
+<rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
+<text x="603" y="276" class="combo tap">
+<tspan x="603" dy="-0.6em" style="font-size: 75%">AltGr+KP</tspan><tspan x="603" dy="1.2em" style="font-size: 75%">SLASH</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1453,6 +1469,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">&amp;M8</text>
 </g>
+<g class="combo combopos-5">
+<path d="M603,276 l50,-13" class="combo"/>
+<path d="M603,276 l-50,13" class="combo"/>
+<rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
+<text x="603" y="276" class="combo tap">
+<tspan x="603" dy="-0.6em" style="font-size: 75%">AltGr+KP</tspan><tspan x="603" dy="1.2em" style="font-size: 75%">SLASH</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-3">
@@ -1800,6 +1824,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
 <text x="868" y="224" class="combo tap">&amp;M8</text>
+</g>
+<g class="combo combopos-5">
+<path d="M603,276 l50,-13" class="combo"/>
+<path d="M603,276 l-50,13" class="combo"/>
+<rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
+<text x="603" y="276" class="combo tap">
+<tspan x="603" dy="-0.6em" style="font-size: 75%">AltGr+KP</tspan><tspan x="603" dy="1.2em" style="font-size: 75%">SLASH</tspan>
+</text>
 </g>
 </g>
 </g>

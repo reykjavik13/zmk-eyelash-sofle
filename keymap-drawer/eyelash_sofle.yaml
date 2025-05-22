@@ -271,3 +271,5 @@ combos:
   k: '&M7'
 - p: [50, 51]
   k: '&M8'
+- p: [61, 59]
+  k: AltGr+KP SLASH
