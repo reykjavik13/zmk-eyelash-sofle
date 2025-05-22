@@ -72,7 +72,7 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <175>;
         quick-tap-ms = <0>;
         flavor = "tap-preferred";
     };
@@ -176,7 +176,7 @@
 &as LA(CAPS) TAB  &as LS(Q) Q                 &as LS(W) W          &as LS(E) E                     &as LS(R) R          &as LS(T) T          &kp DOWN_ARROW   &as LS(Y) Y          &as LS(U) U    &as LS(I) I          &as LS(O) O        &as LS(P) P         &as LEFT_BRACE LEFT_BRACKET
 &TD1              &as LS(A) A                 &as LS(S) S          &as LS(D) D                     &as LS(F) F          &as LS(G) G          &kp LEFT_ARROW   &as LS(H) H          &as LS(J) J    &as LS(K) K          &as LS(L) L        &as LS(SEMI) SEMI   &as DOUBLE_QUOTES SINGLE_QUOTE
 &TD2              &as LS(Z) Z                 &as LS(X) X          &as LS(C) C                     &as LS(V) V          &as LS(B) B          &kp RIGHT_ARROW  &as LS(N) N          &as LS(M) M    &as LS(COMMA) COMMA  &as LS(DOT) DOT    &as QUESTION SLASH  &as LEFT_SHIFT ENTER
-&kp C_MUTE        &as LCTRL LEFT_PARENTHESIS  &as LEFT_GUI SPACE   &as LEFT_ALT RIGHT_PARENTHESIS  &mo 1                &kp LC(BACKSPACE)    &kp PRINTSCREEN  &mt END HOME         &mo 2          &TD3                 &kp LC(BACKSPACE)  &kp DELETE
+&kp C_MUTE        &as LCTRL LEFT_PARENTHESIS  &as LEFT_GUI SPACE   &as LEFT_ALT RIGHT_PARENTHESIS  &mo 1                &kp LC(BACKSPACE)    &kp PRINTSCREEN  &mt END HOME         &mo 2          &as RA(W) SLASH      &kp LC(BACKSPACE)  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -189,7 +189,7 @@
 &trans       &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans   &trans   &trans
 &trans       &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_UP          &kp PAGE_DOWN      &trans                &trans   &trans   &kp RIGHT_BRACKET
 &trans       &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI    &rgb_ug RGB_BRD    &trans                &kp F11  &kp F12  &trans
-&bootloader  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans             &mo 3              &trans                &trans   &trans
+&bootloader  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans             &mo 3              &kp RA(SLASH)         &trans   &trans
             >;
 
             display-name = "layer1";
