@@ -702,9 +702,7 @@ rect.held, rect.combo.held {
 <path d="M603,276 l50,-13" class="combo"/>
 <path d="M603,276 l-50,13" class="combo"/>
 <rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
-<text x="603" y="276" class="combo tap">
-<tspan x="603" dy="-0.6em">AltGr</tspan><tspan x="603" dy="1.2em">+\</tspan>
-</text>
+<text x="603" y="276" class="combo tap">Sft+\</text>
 </g>
 <g class="combo combopos-6">
 <path d="M196,35 l-37,0" class="combo"/>
@@ -1055,10 +1053,8 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.0em">AltGr</tspan><tspan x="0" dy="1.2em">+\</tspan>
-</text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">AltGr+|</tspan></text>
+<text x="0" y="-4" class="key tap">Sft+\</text>
+<text x="0" y="-24" class="key shifted">Sft+|</text>
 </g>
 <g transform="translate(728, 252)" class="key trans keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1100,9 +1096,7 @@ rect.held, rect.combo.held {
 <path d="M603,276 l50,-13" class="combo"/>
 <path d="M603,276 l-50,13" class="combo"/>
 <rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
-<text x="603" y="276" class="combo tap">
-<tspan x="603" dy="-0.6em">AltGr</tspan><tspan x="603" dy="1.2em">+\</tspan>
-</text>
+<text x="603" y="276" class="combo tap">Sft+\</text>
 </g>
 <g class="combo combopos-6">
 <path d="M196,35 l-37,0" class="combo"/>
@@ -1498,9 +1492,7 @@ rect.held, rect.combo.held {
 <path d="M603,276 l50,-13" class="combo"/>
 <path d="M603,276 l-50,13" class="combo"/>
 <rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
-<text x="603" y="276" class="combo tap">
-<tspan x="603" dy="-0.6em">AltGr</tspan><tspan x="603" dy="1.2em">+\</tspan>
-</text>
+<text x="603" y="276" class="combo tap">Sft+\</text>
 </g>
 <g class="combo combopos-6">
 <path d="M196,35 l-37,0" class="combo"/>
@@ -1866,9 +1858,7 @@ rect.held, rect.combo.held {
 <path d="M603,276 l50,-13" class="combo"/>
 <path d="M603,276 l-50,13" class="combo"/>
 <rect rx="6" ry="6" x="589" y="264" width="28" height="26" class="combo"/>
-<text x="603" y="276" class="combo tap">
-<tspan x="603" dy="-0.6em">AltGr</tspan><tspan x="603" dy="1.2em">+\</tspan>
-</text>
+<text x="603" y="276" class="combo tap">Sft+\</text>
 </g>
 <g class="combo combopos-6">
 <path d="M196,35 l-37,0" class="combo"/>

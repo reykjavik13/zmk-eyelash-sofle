@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '3'
-  - {t: AltGr+\, s: AltGr+|}
+  - {t: Sft+\, s: Sft+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
@@ -272,7 +272,7 @@ combos:
 - p: [50, 51]
   k: '&M8'
 - p: [61, 59]
-  k: AltGr+\
+  k: Sft+\
 - p: [2, 4]
   k: '&M9'
 - p: [3, 5]
