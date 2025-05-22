@@ -62,7 +62,7 @@ layers:
   - PRINTSCREEN
   - {t: HOME, h: END}
   - '2'
-  - {t: /, h: AltGr+W, s: '?'}
+  - {t: KP SLASH, h: AltGr+W}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   layer1:
