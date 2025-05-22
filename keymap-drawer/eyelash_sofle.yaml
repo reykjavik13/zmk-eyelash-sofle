@@ -62,7 +62,7 @@ layers:
   - PRINTSCREEN
   - {t: HOME, h: END}
   - '2'
-  - '&TD3'
+  - {t: /, h: AltGr+W, s: '?'}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   layer1:
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: AltGr+/, s: 'AltGr+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
