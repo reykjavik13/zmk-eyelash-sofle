@@ -86,8 +86,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: 'Sft+[', h: ']', s: 'Sft+{'}
   - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
   - Sft+\
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '3'
-  - {t: AltGr+/, s: 'AltGr+?'}
+  - {t: AltGr+\, s: AltGr+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
