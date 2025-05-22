@@ -104,6 +104,11 @@
             bindings = <&M8>;
             key-positions = <50 51>;
         };
+
+        VerticalSlash {
+            bindings = <&kp RA(KP_SLASH)>;
+            key-positions = <61 59>;
+        };
     };
 
     macros {
